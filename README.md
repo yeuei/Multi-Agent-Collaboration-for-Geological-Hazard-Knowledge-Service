@@ -8,7 +8,6 @@
 
 <img width="2630" height="1144" alt="image" src="https://github.com/user-attachments/assets/343a9d13-836e-4eeb-b954-11610c94337e" />
 
-
 ### 核心工作流程
 
 1. **规划阶段**：规划器 LLM 分析用户问题，识别核心和补充信息需求，生成结构化的 JSON 计划，指定每个子任务应咨询的专家。
@@ -53,6 +52,7 @@ Multi-Agent/
 ├── tests/                  # 单元测试和集成测试
 ├── langgraph.json          # LangGraph 部署配置
 └── pyproject.toml          # 项目依赖和元数据
+└── test.py                 # 测试脚本
 ```
 
 ## 技术栈
